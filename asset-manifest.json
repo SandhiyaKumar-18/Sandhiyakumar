@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Sandhiyakumar/static/css/main.27ec9df1.css",
-    "main.js": "/Sandhiyakumar/static/js/main.4c0b7dff.js",
+    "main.css": "/Sandhiyakumar/static/css/main.60a0039f.css",
+    "main.js": "/Sandhiyakumar/static/js/main.413a50c0.js",
     "static/js/488.73958d68.chunk.js": "/Sandhiyakumar/static/js/488.73958d68.chunk.js",
+    "static/media/github.svg": "/Sandhiyakumar/static/media/github.bdb006c81c907994383d42a4dc89b8c9.svg",
+    "static/media/avataaars.png": "/Sandhiyakumar/static/media/avataaars.617c85205604d4dd3399.png",
+    "static/media/linkedin.svg": "/Sandhiyakumar/static/media/linkedin.cd3fa1183bbd53eeadb8ca9d3a5687bb.svg",
+    "static/media/mail.svg": "/Sandhiyakumar/static/media/mail.19dc6cff240140b7a340d072846e0d41.svg",
     "index.html": "/Sandhiyakumar/index.html",
+    "static/media/Vector.svg": "/Sandhiyakumar/static/media/Vector.47c14e2032decc5bd65bb27ff9773d0c.svg",
     "static/media/icon-hamburger.svg": "/Sandhiyakumar/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.27ec9df1.css.map": "/Sandhiyakumar/static/css/main.27ec9df1.css.map",
-    "main.4c0b7dff.js.map": "/Sandhiyakumar/static/js/main.4c0b7dff.js.map",
+    "main.60a0039f.css.map": "/Sandhiyakumar/static/css/main.60a0039f.css.map",
+    "main.413a50c0.js.map": "/Sandhiyakumar/static/js/main.413a50c0.js.map",
     "488.73958d68.chunk.js.map": "/Sandhiyakumar/static/js/488.73958d68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ec9df1.css",
-    "static/js/main.4c0b7dff.js"
+    "static/css/main.60a0039f.css",
+    "static/js/main.413a50c0.js"
   ]
 }
