@@ -44,8 +44,10 @@ import skills from "./Skills";
            {/* Desktop Menu */}
            <ul className="nav-links">
         <li onClick={() => handleNavigation("/")}>Home</li>
+        <li onClick={() => handleNavigation("/sandhiyakumar")}>Home</li>
         <li onClick={() => handleNavigation("/skills")}>Skills</li>
         <li onClick={() => handleNavigation("/project")}>Projects</li>
+        <li onClick={() => handleNavigation("/certification")}>Certifications</li>
       </ul>
 
       <button className="mobile-menu-icon" onClick={toggleMobileMenu}>
@@ -57,6 +59,7 @@ import skills from "./Skills";
           <li onClick={() => handleNavigation("/")}>Home</li>
           <li onClick={() => handleNavigation("/skills")}>Skills</li>
           <li onClick={() => handleNavigation("/project")}>Projects</li>
+          <li onClick={() => handleNavigation("/certification")}>Certifications</li>
         </ul>
       )}
     </nav>
