@@ -1,0 +1,187 @@
+.home-main-container{
+    width: 100%;
+  }
+  .hero-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap: 2rem; 
+  }
+
+  .aboutme{
+    background: #164659;
+    color: white;
+    width: 100%; 
+    }
+
+  .about-para{
+    padding: 1.2rem;
+    color: white;
+    width: 100%;
+    
+  }
+  .intro{
+    margin-top: 4.5rem;
+    
+    width: 65%;
+    margin-left: 25%;
+    color: #164659;
+  }
+  .hello{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .name{
+    font-size: 2rem;
+    font-weight: 650;
+   
+  }
+  .cse{
+    font-size: 1.2rem;
+    
+  }
+  .avatar{
+    margin-right: 0rem ;
+    margin-bottom: 1rem;
+    width: 70%;
+    margin: 0;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    
+  }
+  
+  .aboutme{
+    background: #164659;
+    width: 100%;
+    color: white;
+    padding: 4.5rem;
+    
+  }
+  .about{
+    padding-bottom: 0.4rem;
+    text-align: center; 
+    font-weight: 500;
+  }
+  .about-para{
+    padding: 0.4rem;
+    color: white;
+    padding:0.5rem;
+  }
+  
+  .footer{
+    background-color: #031D2B;
+    opacity: 95%;
+    width: 100%;
+    margin: 0;
+  }
+  .items{
+    display: flex;
+    flex-direction: row;
+     padding: 2rem;
+    justify-content:center;
+    gap: 2rem;
+     
+  }
+  .icon{
+    width: 3%;
+  }
+  
+  /* ------------------------------------------------------------ */
+  @media (min-width:49em) and (max-width:63.9em)
+  {
+      .hero-container{
+          display: flex;
+          flex-direction: row;
+          gap: 0;
+          margin-bottom: 1rem;
+      }
+      .intro{
+          margin-left: 9rem;
+          
+          margin-top: 4.2rem;
+         
+      }
+      .avatar{
+          margin-right: 4rem;
+      }
+      .about{
+          margin: 0;
+          padding: 0;
+          margin-bottom: 0.5rem;
+      }
+      .about-para{
+          margin: 0;
+          padding: 0.3rem;
+          padding-left: 1.2rem;
+      }
+      .icon{
+          width: 6%;
+      }
+   
+      
+  }
+  /* ------------------------------------------------------------ */
+  @media (min-width:64em) {
+      .hero-container{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        gap: 0rem;
+       margin-bottom: 2rem;
+        margin-top: 0rem;
+        margin-right: 25rem;
+        margin-left: 0rem;
+       
+      }
+    .intro{
+        width: 100%;
+        margin-left: 20rem;
+    }
+    .hello{
+        font-size: 4rem;
+    }
+
+.avatar{
+    margin-right: 15rem;
+}
+.icon{
+  width: 3%;
+}
+
+
+
+}
+
+/* ----------------------- tablet and desktop----------------------------- */
+@media (min-width:1000px) and (max-width:1200px)
+{
+  .hero-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+.intro{
+   
+    margin-top: 4.2rem;
+    margin-left: 10rem;
+    margin-right: 1rem;
+}
+.avatar{
+
+    margin-left: 0rem;
+    margin-right: 15rem;
+}
+
+
+}
+/* ---------------------------------------------- */
+
+
+
+
+
+
+

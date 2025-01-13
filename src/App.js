@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Homee from "./Component/Homee";
+import image from "./image/Vector.svg"
+import Skills from "./Component/Skills";
+import Project from "./Component/P";
+import hambug from "./image/icon-hamburger.svg";
+import Navbar from "./Component/Navbar"
+import "./Component/TempNav.css"
+// import "./Component/Navbarr.css";
+import "./App.css"
 function App() {
+  // =============Return Function===============
   return (
+
+// ===========App===============================
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <Navbar/> 
+    <Router basename="/">
+    <div className="header">
+    {/* <img className="header-logo" src={image} alt ="no" ></img> */}
+    {/* <img className="hambug"  src={hambug} alt = "hambug"></img> */}
     </div>
+    <div className="routes">
+    <Routes>
+    <Route path="/Sandhiyakumar" element={<Homee />} />
+    <Route path="/" element={<Homee />} />
+    <Route path="/skills" element={<Skills />} />
+    {/* <Route path="/contact" element={<Contact />} />                                                                                                                                          ` */} 
+    {/* <Route path="/blogs" element={<Blogs />} />  */}
+    <Route path="/project" element={<Project />} />     
+    </Routes>
+    </div>
+    </Router> 
+
+</div>
+// ========================App End ======================================
+
   );
 }
 

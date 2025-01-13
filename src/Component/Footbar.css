@@ -1,0 +1,16 @@
+.footer{
+  background-color: #031D2B;
+  opacity: 95%;
+  width: 100%;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.icon{
+  height: 3%;
+  width: 3%;
+ 
+}

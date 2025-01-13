@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:"calibri";
+  }
+  .main-container {
+    padding: 0.5rem;
+  }
+  .skills{
+     margin-left:0.5rem;
+     margin-right:3rem;
+     font-size: 2.5rem;
+     
+  }
+  .skill-para{
+      font-size: 1.2rem;
+      margin-right: 3rem;
+      margin-top: 2rem;
+  }
+
+
+.heading{
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #164659;
+    
+  } 
+  .cards{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .card{
+      background-color: #164659;
+      margin:1rem;
+      width: 22rem;
+      color: white;
+      padding: 2rem;
+      border-radius: 0.8rem;
+      height: 27rem;
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
+      transition: all 0.2s;
+      
+  }
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.07);
+  }
+  .card__list{
+    list-style: none;
+    font-weight: 200;
+    margin-left: 2rem;
+  }
+  .cardtitle{
+    font-weight: 400;
+    padding: 0;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+
+  @media(min-width:45rem){
+    .skills{
+      margin-left: 4.5rem;
+    }
+    .skill-para{
+      margin-left: 5.5rem;
+    }
+    .cards{
+      margin-left: 4.5rem;
+      margin-bottom: 2rem;
+      transition: all 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.07);
+    }
+  }
+
+  @media(max-width:45rem){
+    .cards{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+      margin-bottom: 2rem;
+     
+      transition: all 0.2s;
+      
+  }
+  .card:hover {
+    transform: scale(1.07);
+  }
+  }
