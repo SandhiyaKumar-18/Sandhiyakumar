@@ -22,7 +22,7 @@ export default function Home(){
                <h1 className="hello">Hello!...</h1>
                <h1 className="name">I'm Sandhiya</h1>
                <p className="cse">Cyber Security Enthusiast </p>
-               <p className="intro-dia">Security Analyst @cognizant</p>
+               <p className="intro-dia">Security Analyst @Cognizant</p>
                <p className="intro-dia">Who just fell in love with learning & Protecting Stuffs!  </p>
                <p className="intro-dia">OKTA | IAM | Cloud Security | Web App security</p>
                <p className="intro-dia"></p> 
