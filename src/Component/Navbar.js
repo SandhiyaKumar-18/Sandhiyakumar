@@ -23,7 +23,6 @@ const Navbar = () => {
       
       <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>
         <li className="hover-underline-animation"><a href ="/" style={{ textDecoration: 'none' }} className="aclass">Ho</a></li>
-        <li> <Link to="/">Home</Link> </li>
         <li> <Link to="/Skills">Ski;</Link> </li>
         <li className="hover-underline-animation"><a href ="/Homee" style={{ textDecoration: 'none' }} className="aclass">Home</a></li>
         <li className="hover-underline-animation"><a href="/Skills" style={{ textDecoration: 'none' }}className="aclass">Skills</a></li>
