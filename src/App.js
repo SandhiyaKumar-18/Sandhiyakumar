@@ -16,8 +16,9 @@ function App() {
 // ===========App===============================
     <div className="App">
 
-    <Navbar/> 
+   
     <Router basename="/">
+    <Navbar/> 
     <div className="header">
     {/* <img className="header-logo" src={image} alt ="no" ></img> */}
     {/* <img className="hambug"  src={hambug} alt = "hambug"></img> */}
