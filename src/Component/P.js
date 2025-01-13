@@ -44,15 +44,7 @@ export default function Project()
             </div>
             <div className="pr-box">
             <div className="pr-box-part1">
-            <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/watch?v=rr25J_hu1L8"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="YouTube Video"
-      ></iframe>
+            <iframe width="560" height="300" src="https://www.youtube.com/embed/rr25J_hu1L8?si=phc508KWfKA7h1nd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
             </div>
@@ -122,15 +114,7 @@ export default function Project()
                 <div className="pr-box-mobile">
 
             <div className="pr-box-part1-mobile">
-        <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/watch?v=rr25J_hu1L8"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        title="YouTube Video"
-      ></iframe>
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/rr25J_hu1L8?si=phc508KWfKA7h1nd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
