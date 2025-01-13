@@ -21,8 +21,10 @@ export default function Home(){
         <div className="intro">
                <h1 className="hello">Hello!...</h1>
                <h1 className="name">I'm Sandhiya</h1>
-               <p className="cse">Computer Science Engineering</p>
-               <p className="intro-dia">Who just fall in love with learning & Creating Stuffs!  </p>
+               <p className="cse">Cyber Security Enthusiast </p>
+               <p className="intro-dia">Security Analyst @cognizant</p>
+               <p className="intro-dia">Who just fell in love with learning & Protecting Stuffs!  </p>
+               <p className="intro-dia">OKTA | IAM | Cloud Security | Web App security</p>
                <p className="intro-dia"></p> 
         </div>
         <div className="avatar" >
@@ -66,28 +68,23 @@ export default function Home(){
         <h1 className="about">About me</h1>
         <div className="full-para">
         <p className="about-para">
-        I’m Sandhiya K,Studying Engineering in Computer science
-        Talking About persnolity,I’m kind of girl who always love to learn and experiment with new things.
+        I’m kind of person who’s love for learning is endless!! 
         </p>
 
         <p className="about-para">
-        Always trying to be creative and perfect with new things that I learn!
-        To me learning new things and trying to be perfect in that makes so much joy!..
-        Now I’m fall in love with Full stack Development and Machine learning..
+        My journey began at Adhiparasakthi Engineering College, where I graduated with an 8.9 CGPA in Computer Science. 
+        Those college days were more than just lectures and assignments – they shaped my passion for front end development and sparked a growing interest in machine learning. 
         </p>
         <p className="about-para">
-        Wanted to be in touch  with me ..? buy me a coffee and come up with any new things that you tried..we will talk about that in hours!
-        </p>
-
-        <p className="about-para">
-        I’m Sandhiya K,Studying Engineering in Computer science
-        Talking About persnolity,I’m kind of girl who always love to learn and experiment with new things.
+        During this time, I developed Nutrition Analyzer, a project tailored for fitness enthusiasts, with valuable support from <h1 className="ibm">IBM</h1> The journey of building this project is a story in itself, as we adhered to industry standards and gained hands-on experience throughout the process. You can explore all the details in the Projects section of this site. 
         </p>
 
         <p className="about-para">
-        Always trying to be creative and perfect with new things that I learn!
-        To me learning new things and trying to be perfect in that makes so much joy!..
-        Now I’m fall in love with Full stack Development and Machine learning..
+        In my third year, I joined <h3 className="ibm">Cognizant’s Digital Nurture Program</h3>, where I dove headfirst into the world of cybersecurity. After clearing multiple rounds (a mini adventure in itself), I became part of a program that spanned my entire sixth semester. I completed the training
+        </p>
+
+        <p className="about-para">
+        Fast forward to today, after four months of internship and now 1.9 years of full-time experience, I’m thriving as a cybersecurity professional at Cognizant. Every day is a new challenge, a new opportunity to learn, and yes, a new reason to geek out about tech!
         </p>
 
         <p className="about-para">

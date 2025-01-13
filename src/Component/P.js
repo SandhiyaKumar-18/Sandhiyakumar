@@ -86,30 +86,10 @@ export default function Project()
 
 {/* ------------------------------pr-4 block------------------------------------- */}
 
-<div className="pr-1">
-        <h1 className="pr-title">Airbnb clone</h1>
-        <div className="pr-flex">
-            <div className="Discription">
-                <h1 className="dis"> Discription</h1>
-                <p className="dis-para">Airbnb clone,it just a clone of an real airbnb website.Need to write simple explanation about the projects.</p>
-                <h1 className="pr-front-tools"> Front End Tools</h1>
-                <p className="pr-tools">Html,CSS,Reactjs,Figma</p>
-                <h1 className="pr-back-tools"> Back End Tools</h1>
-                <p className="pr-tools">Html,CSS,Reactjs,Figma</p>
-                <button className="pr-button"> Go to the Website!</button>
-                
-            </div>
-            <div className="pr-box">
-            <div className="pr-box-part1"></div>
-            <div className="pr-box-part2">
-            <div className="pr-images">
-            <img className="pr-logo" src={image} alt ="no" ></img>
-            <img className="pr-logo" src={mail} alt ="no" ></img>
-            </div>
-            </div>
-            </div>
-        </div>
-        </div>
+
+
+
+
         </div>
 
 {/* ---------------------------------pr - End ------------------------------------------------ */}

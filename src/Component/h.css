@@ -8,6 +8,9 @@
     gap: 2rem; 
   }
 
+  .ibm{
+    font-size: 2rem ;
+  }
   .aboutme{
     background: #164659;
     color: white;
@@ -181,7 +184,10 @@
 
 
 
-
+.ibm{
+  font-size: 1.2rem;
+  font-style: italic;
+}
 
 
 
