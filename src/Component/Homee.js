@@ -7,6 +7,10 @@ import github from "../image/github.svg"
 
 import linkedin from "../image/linkedin.svg"
 import mail from "../image/mail.svg"
+import Timeline from "./Timeline";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home(){
   
@@ -26,6 +30,26 @@ export default function Home(){
                <p className="intro-dia">Who just fell in love with learning & Protecting Stuffs!  </p>
                <p className="intro-dia">OKTA | IAM | Cloud Security | Web App security</p>
                <p className="intro-dia"></p> 
+               <div className="fontaw-icon" style={{ display: "flex" , flexDirection:"column", display:"block", gap: "1rem"}}>
+      <a
+        href="https://www.linkedin.com/in/sandhiya-kumar18/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#0A66C2" />
+      </a>
+  
+    <a
+      href="https://github.com/SandhiyaKumar-18"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <FontAwesomeIcon icon={faGithub} size="2x" color="#333" />
+    </a>
+    <a href="mailto:ksandhiya484@gmail.com" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faEnvelope} size="2x" color="#D44638" />
+      </a>
+    </div>
         </div>
         <div className="avatar" >
             <img src={avatar}  alt ="nothing"></img>
@@ -61,6 +85,35 @@ export default function Home(){
     <div class="bubble x25"></div>
 </div>
 
+{/* ===================================================================== */}
+
+
+     <Timeline />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         {/* -----------------About Me Section-------------- */}
 
@@ -80,7 +133,7 @@ export default function Home(){
         </p>
 
         <p className="about-para">
-        In my third year, I joined <h3 className="ibm">Cognizant’s Digital Nurture Program</h3>, where I dove headfirst into the world of cybersecurity. After clearing multiple rounds (a mini adventure in itself), I became part of a program that spanned my entire sixth semester. I completed the training
+        In my third year, I joined <h3 className="ibm">Cognizant’s Digital Nurture Program,</h3>where I dove headfirst into the world of cybersecurity. After clearing multiple rounds (a mini adventure in itself), I became part of a program that spanned my entire sixth semester. I completed the training
         </p>
 
         <p className="about-para">
@@ -100,9 +153,12 @@ export default function Home(){
 
        <div className="footer">
        <div className="items">
-          <img className="icon" src={github}  alt="img"  ></img>
+      
+       {/* <a href="https://github.com/SandhiyaKumar-18"><img className="icon" src={github}  alt="img"  /></a>
+        
+          
           <img className="icon" src={linkedin}  alt="IMG"></img>
-          <img className="icon" src={mail}  alt="img"></img>
+          <img className="icon" src={mail}  alt="img"></img> */}
           </div>  
        </div>
 

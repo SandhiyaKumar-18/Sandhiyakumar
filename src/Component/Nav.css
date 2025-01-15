@@ -37,10 +37,10 @@ body {
     font-size: 20px;
     list-style: none;
     gap: 1.2em;
-    --gap: clamp(1.5rem, 5vw, 3.5rem);
+    --gap: clamp(1.3rem, 5vw, 3.5rem);
     --underline-gap: 2rem;
-    margin-right: 50rem;
-    margin-left: 50rem;
+    margin-right: 30rem;
+    margin-left: 40rem;
   }
   
   .nav-links li {

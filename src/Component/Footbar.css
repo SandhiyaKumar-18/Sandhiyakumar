@@ -2,15 +2,25 @@
   background-color: #031D2B;
   opacity: 95%;
   width: 100%;
+  margin: 0;
 }
 .items{
   display: flex;
   flex-direction: row;
+  padding: 2rem;
+  justify-content:center;
   gap: 2rem;
-  justify-content: center;
+  
+   
+}
+.pr-items{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content:center;
 }
 .icon{
-  height: 3%;
   width: 3%;
- 
 }
+
