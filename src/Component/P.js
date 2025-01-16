@@ -33,13 +33,12 @@ export default function Project()
         <div className="pr-flex">
             <div className="Discription">
                 <h1 className="dis"> Discription</h1>
-                <p className="dis-para">Airbnb clone,it just a clone of an real airbnb website.Need to write simple explanation about the projects.</p>
+                <p className="dis-para">Nutrition Analyzer is a user-friendly tool designed to help users find the nutritional value of various fruits. This project aims to promote healthier dietary choices by providing detailed nutritional information about fruits in an easy-to-access format.</p>
                 <h1 className="pr-front-tools"> Front End Tools</h1>
                 <p className="pr-tools">Html,CSS,Reactjs,Figma</p>
                 <h1 className="pr-back-tools"> Back End Tools</h1>
-                <p className="pr-tools">Html,CSS,Reactjs,Figma</p>
-                <a href="https://github.com/SandhiyaKumar-18/Sandhiyakumar111111/" style={{ textDecoration: 'none'}}>
-                <button className="pr-button"> Go to the Website!</button>
+                <a href="https://github.com/SandhiyaKumar-18/Nutrition-Analyzer" style={{ textDecoration: 'none'}}>
+                <button className="pr-button"> Go to Github!</button>
                 </a>
             </div>
             <div className="pr-box">
@@ -50,8 +49,8 @@ export default function Project()
             </div>
             <div className="pr-box-part2">
             <div className="pr-images">
-            <img className="pr-logo" src={image} alt ="no" ></img>
-            <img className="pr-logo" src={mail} alt ="no" ></img>
+            {/* <img className="pr-logo" src={image} alt ="no" ></img>
+            <img className="pr-logo" src={mail} alt ="no" ></img> */}
             </div>
             </div>
             </div>
@@ -69,15 +68,20 @@ export default function Project()
                 <p className="pr-tools">Html,CSS,Reactjs,Figma</p>
                 <h1 className="pr-back-tools"> Back End Tools</h1>
                 <p className="pr-tools">Github</p>
-                <button className="pr-button">Go to the Website!</button>
+                <a href="https://github.com/SandhiyaKumar-18/Sandhiyakumar/" style={{ textDecoration: 'none'}}>
+                <button className="pr-button"> Go to Github!</button>
+                </a>
+                
                 
             </div>
             <div className="pr-box">
-            <div className="pr-box-part1"></div>
+            <div className="pr-box-part1">
+            <iframe width="560" height="300" src="https://www.youtube.com/embed/ccnse2HZn4I?si=5cpUpH6kdA5UDZFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <div className="pr-box-part2">
             <div className="pr-images">
-            <img className="pr-logo" src={image} alt ="no" ></img>
-            <img className="pr-logo" src={mail} alt ="no" ></img>
+            {/* <img className="pr-logo" src={image} alt ="no" ></img>
+            <img className="pr-logo" src={mail} alt ="no" ></img> */}
             </div>
             </div>
             </div>
@@ -101,15 +105,15 @@ export default function Project()
 {/* ---------------------pr- mobile tab */}
 <div className="mobile">
 <div className="pr-1-mobile">
-        <h1 className="pr-title-mobile">Personal Portfolio</h1>
+        <h1 className="pr-title-mobile">Nutrition Analyzer</h1>
         <div className="pr-flex-mobile">
             <div className="Discription-mobile">
                 <h1 className="dis-mobile"> Discription</h1>
-                <p className="dis-para-mobile">Created a personal profile for myself that is fully responsive and works seamlessly on both mobile and laptop devices.</p>
+                <p className="dis-para-mobile">Nutrition Analyzer is a user-friendly tool designed to help users find the nutritional value of various fruits. This project aims to promote healthier dietary choices by providing detailed nutritional information about fruits in an easy-to-access format.</p>
                 <h1 className="pr-front-tools-mobile"> Front End Tools</h1>
-                <p className="pr-tools-mobile">Html,CSS,Reactjs,Figma</p>
-                <h1 className="pr-back-tools-mobile"> Back End Tools</h1>
-                <p className="pr-tools-mobile">Github</p>
+                <p className="pr-tools-mobile">Html,CSS</p>
+                <h1 className="pr-back-tools-mobile">Back End Tools</h1>
+                <p className="pr-tools-mobile">Python,Github</p>
 
                 <div className="pr-box-mobile">
 
@@ -121,16 +125,17 @@ export default function Project()
             </div>
             <div className="pr-box-part2-mobile">
             <div className="pr-images-mobile">
-            <img className="pr-logo-mobile" src={image} alt ="no" ></img>
-            <img className="pr-logo-mobile" src={mail} alt ="no" ></img>
+            {/* <img className="pr-logo-mobile" src={image} alt ="no" ></img>
+            <img className="pr-logo-mobile" src={mail} alt ="no" ></img> */}
             </div>
             </div>
             </div>
 
 
 
-                <button className="pr-button-mobile"> Go to the Website!</button>
-
+            <a href="https://github.com/SandhiyaKumar-18/Nutrition-Analyzer" style={{ textDecoration: 'none'}}>
+                <button className="pr-button-mobile"> Go to Github!</button>
+                </a>
                 
             </div>
         
@@ -152,18 +157,22 @@ export default function Project()
                 <p className="pr-tools-mobile">Github</p>
 
                 <div className="pr-box-mobile">
-            <div className="pr-box-part1-mobile"></div>
+            <div className="pr-box-part1-mobile">
+                
+            <iframe width="300" height="250" src="https://www.youtube.com/embed/ccnse2HZn4I?si=5cpUpH6kdA5UDZFG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <div className="pr-box-part2-mobile">
             <div className="pr-images-mobile">
-            <img className="pr-logo-mobile" src={image} alt ="no" ></img>
-            <img className="pr-logo-mobile" src={mail} alt ="no" ></img>
+            {/* <img className="pr-logo-mobile" src={image} alt ="no" ></img>
+            <img className="pr-logo-mobile" src={mail} alt ="no" ></img> */}
             </div>
             </div>
             </div>
 
 
-
-                <button className="pr-button-mobile"> Go to the Website!</button>
+            <a href="https://github.com/SandhiyaKumar-18/Sandhiyakumar/" style={{ textDecoration: 'none'}}>
+                <button className="pr-button-mobile"> Go to Github!</button>
+                </a>
 
                 
             </div>

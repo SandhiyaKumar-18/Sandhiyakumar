@@ -50,7 +50,7 @@ import skills from "./Skills";
         <li onClick={() => handleNavigation("/skills")}className="hover-underline-animation">Skills</li>
         <li onClick={() => handleNavigation("/project")}className="hover-underline-animation">Projects</li>
         <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Certification</li>
-        <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Awards</li> 
+        {/* <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Awards</li>  */}
       </ul>
 
       <button className="mobile-menu-icon" onClick={toggleMobileMenu}>

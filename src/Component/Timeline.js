@@ -21,7 +21,7 @@ const Timeline = () => {
               Sep 2023 - Present
             </span>
           </div>
-          <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+          <p>Contributed to the Identity Access and Governance team to ensure the protection of Identity and Access.</p>
           <ul className="content-skills">
             <li>OKTA</li>
             <li>IAM</li>
@@ -46,7 +46,7 @@ const Timeline = () => {
               May 2023 - Sep 2023
             </span>
           </div>
-          <p>Working alongside the designer team implementing the designs, also developing custom solutions to address team necessities.</p>
+          <p> Gained Hands on experience in OKTA, which includes SSO,MFA configuration,Life Cycle Management and Etc</p>
           <ul className="content-skills">
             <li>OKTA</li>
             <li>Cyber Secueirty Fundamentals</li>
