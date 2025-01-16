@@ -7,6 +7,7 @@ import Project from "./Component/P";
 import hambug from "./image/icon-hamburger.svg";
 import Navbar from "./Component/Navbar"
 import "./Component/TempNav.css"
+import Certification from "./Component/Certification";
 // import "./Component/Navbarr.css";
 import "./App.css"
 function App() {
@@ -30,7 +31,8 @@ function App() {
     <Route path="/skills" element={<Skills />} />
     {/* <Route path="/contact" element={<Contact />} />                                                                                                                                          ` */} 
     {/* <Route path="/blogs" element={<Blogs />} />  */}
-    <Route path="/project" element={<Project />} />     
+    <Route path="/project" element={<Project />} />  
+    <Route path="/certification" element={<Certification />} />    
     </Routes>
     </div>
     </Router> 

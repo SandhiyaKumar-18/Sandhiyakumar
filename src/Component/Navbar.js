@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import Project from "./P";
 // import "./Nav.css";
 import "./TempNav.css"
+import certification from "./Certification";
 
 import image from "../image/Vector.svg"
 import skills from "./Skills";
@@ -48,7 +49,7 @@ import skills from "./Skills";
        
         <li onClick={() => handleNavigation("/skills")}className="hover-underline-animation">Skills</li>
         <li onClick={() => handleNavigation("/project")}className="hover-underline-animation">Projects</li>
-        <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Certifications</li>
+        <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Certification</li>
         <li onClick={() => handleNavigation("/certification")}className="hover-underline-animation">Awards</li> 
       </ul>
 
@@ -62,7 +63,7 @@ import skills from "./Skills";
           <li onClick={() => handleNavigation("/")}>Home</li>
           <li onClick={() => handleNavigation("/skills")}>Skills</li>
           <li onClick={() => handleNavigation("/project")}>Projects</li>
-          <li onClick={() => handleNavigation("/certification")}>Certifications</li>
+          <li onClick={() => handleNavigation("/certification")}>Certification</li>
         </ul>
       )}
     </nav>

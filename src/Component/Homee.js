@@ -1,10 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./h.css";
-
 import avatar from "../image/avataaars.png"
 import github from "../image/github.svg"
-
 import linkedin from "../image/linkedin.svg"
 import mail from "../image/mail.svg"
 import Timeline from "./Timeline";
@@ -18,6 +16,7 @@ export default function Home(){
         <>
         
         <div className="home-main-container">
+       
         
         {/* ------------Hero Container------------- */}
 
@@ -56,7 +55,7 @@ export default function Home(){
         </div>
         </div>
 
-        {/* --------------------------------------- */}
+    {/* --------------------------------------- */}
     <div id="background-wrap">
     <div class="bubble x1"></div>
     <div class="bubble x2"></div>
@@ -91,30 +90,6 @@ export default function Home(){
      <Timeline />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         {/* -----------------About Me Section-------------- */}
 
         <div className="aboutme">
@@ -146,33 +121,13 @@ export default function Home(){
         </div>
         </div>
 
-    {/* ---------------------------------------------------------------- */}
-
 
     {/* ------------------ Footer----------------------------------------- */}
 
        <div className="footer">
        <div className="items">
-      
-       {/* <a href="https://github.com/SandhiyaKumar-18"><img className="icon" src={github}  alt="img"  /></a>
-        
-          
-          <img className="icon" src={linkedin}  alt="IMG"></img>
-          <img className="icon" src={mail}  alt="img"></img> */}
-          </div>  
+       </div>  
        </div>
-
-    {/* -------------------------------------------------------------------- */}
-
-  
-
-
-
-
-
-
-
-    {/* ------------------------------------------------------------------- */}
         
     </div>
         
